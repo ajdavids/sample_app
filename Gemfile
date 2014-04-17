@@ -9,11 +9,13 @@ group :development, :test do
 	gem 'rspec-rails'
 	gem 'spring'
 	gem 'pry-rails'
+	gem 'guard-rspec'
 end
 
 group :test do
 	gem 'selenium-webdriver'
 	gem 'capybara'
+	gem 'libnotify'
 end
 
 gem 'sass-rails', '~> 4.0.3'
