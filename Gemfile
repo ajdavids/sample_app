@@ -10,6 +10,9 @@ group :development, :test do
 	gem 'spring'
 	gem 'pry-rails'
 	gem 'guard-rspec'
+	gem 'spork-rails'
+	gem 'guard-spork'
+	gem 'childprocess'
 end
 
 group :test do
